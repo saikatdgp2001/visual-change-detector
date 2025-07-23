@@ -1,9 +1,8 @@
 name: Website Visual Change Monitor
 
 on:
-  repository_dispatch:
-    types: [external-ping]
-  workflow_dispatch:  # Still allows manual trigger
+  workflow_dispatch:     # allows manual trigger
+  repository_dispatch:   # allows external webhook trigger
 
 jobs:
   monitor:
