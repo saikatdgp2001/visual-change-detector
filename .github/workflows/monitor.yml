@@ -9,8 +9,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
+      - name: Checkout main branch code
         uses: actions/checkout@v3
+        with:
+          ref: main
 
       - name: Setup Node.js
         uses: actions/setup-node@v3
