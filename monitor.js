@@ -4,7 +4,7 @@ import { PNG } from 'pngjs';
 import pixelmatch from 'pixelmatch';
 import fetch, { FormData } from 'node-fetch';
 
-const TARGET_URL = 'https://www.karzanddolls.com/details/hot+wheels/car-culture/MTEx';
+const TARGET_URL = 'https://www.karzanddolls.com/details/pre-orders/pre-order-minigt/MTcx';
 const TELEGRAM_TOKEN = process.env.TELEGRAM_BOT_TOKEN;
 const TELEGRAM_CHAT_ID = process.env.TELEGRAM_CHAT_ID;
 
